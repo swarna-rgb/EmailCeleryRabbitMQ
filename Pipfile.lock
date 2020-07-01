@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "e39be7f9151b7f24c7b5ac7c90f64ee11e3e512eedbfacbf732b9d3d4d4d6f31"
+            "sha256": "7483ccc55419a8edf122b0fa80b11a0d0fc9885310629eb987374ba7100deb31"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -55,12 +55,26 @@
             "index": "pypi",
             "version": "==3.0.7"
         },
+        "flower": {
+            "hashes": [
+                "sha256:25782840f7ffc25dcf478d94535a2d815448de4aa6c71426be6abfa9ca417448",
+                "sha256:616428951bd28c0463ce225331b22be1914f2240dec37ca7fabdb089ba46acec"
+            ],
+            "index": "pypi",
+            "version": "==0.9.4"
+        },
         "future": {
             "hashes": [
                 "sha256:b1bead90b70cf6ec3f0710ae53a525360fa360d306a86583adc6bf83a4db537d"
             ],
             "markers": "python_version >= '2.6' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==0.18.2"
+        },
+        "humanize": {
+            "hashes": [
+                "sha256:a43f57115831ac7c70de098e6ac46ac13be00d69abbf60bdcac251344785bb19"
+            ],
+            "version": "==0.5.1"
         },
         "importlib-metadata": {
             "hashes": [
@@ -92,6 +106,21 @@
             ],
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==0.3.1"
+        },
+        "tornado": {
+            "hashes": [
+                "sha256:0fe2d45ba43b00a41cd73f8be321a44936dc1aba233dee979f17a042b83eb6dc",
+                "sha256:22aed82c2ea340c3771e3babc5ef220272f6fd06b5108a53b4976d0d722bcd52",
+                "sha256:2c027eb2a393d964b22b5c154d1a23a5f8727db6fda837118a776b29e2b8ebc6",
+                "sha256:5217e601700f24e966ddab689f90b7ea4bd91ff3357c3600fa1045e26d68e55d",
+                "sha256:5618f72e947533832cbc3dec54e1dffc1747a5cb17d1fd91577ed14fa0dc081b",
+                "sha256:5f6a07e62e799be5d2330e68d808c8ac41d4a259b9cea61da4101b83cb5dc673",
+                "sha256:c58d56003daf1b616336781b26d184023ea4af13ae143d9dda65e31e534940b9",
+                "sha256:c952975c8ba74f546ae6de2e226ab3cc3cc11ae47baf607459a6728585bb542a",
+                "sha256:c98232a3ac391f5faea6821b53db8db461157baa788f5d6222a193e9456e1740"
+            ],
+            "markers": "python_full_version >= '3.5.2'",
+            "version": "==6.0.4"
         },
         "vine": {
             "hashes": [
