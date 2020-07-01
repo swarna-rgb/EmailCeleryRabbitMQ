@@ -119,3 +119,17 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+#celery settings
+
+#CELERY_BROKER_URL = 'amqp://localhost'
+#CELERY_BROKER_URL = 'redis://localhost:6379'
+
+#CELERY_BROKER_URL = 'redis://h:p1fd753b205198fa42d809b2221645c1bceee910041938251c05f06e7df01a884@ec2-3-234-67-155.compute-1.amazonaws.com:28129'
+
+
+#EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+
+#EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+
